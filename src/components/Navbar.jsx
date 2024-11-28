@@ -34,11 +34,13 @@ const Navbar = () => {
     // navitems array
     const navItems = [
         {link: "Home", path: "home"},
-        {link: "Service", path: "service"},
         {link: "About", path: "about"},
-        {link: "Product", path: "product"},
-        {link: "Testimonial", path: "testimonial"},
-        {link: "FAQ", path: "faq"},
+        {link: "Team", path: "team"},
+        // {link: "Service", path: "service"},
+        // {link: "About", path: "about"},
+        // {link: "Product", path: "product"},
+        // {link: "Testimonial", path: "testimonial"},
+        // {link: "FAQ", path: "faq"},
     ];
 
 
@@ -56,8 +58,8 @@ const Navbar = () => {
 
                 {/* btn for large devices */}
                 <div className="space-x-12 hidden lg:flex items-center">
-                    <a href="/" className="hidden lg:flex items-center text-brandPrimary hover:text-gray900">Login</a>
-                    <button className="bg-brandPrimary text-white py-2 px-4 transition-all duration-300 rounded hover:bg-neutralDGrey">Sign Up</button>
+                    {/* <a href="/" className="hidden lg:flex items-center text-brandPrimary hover:text-gray900">Login</a> */}
+                    <button className="bg-brandPrimary text-white py-2 px-4 transition-all duration-300 rounded hover:bg-neutralDGrey">Get Code</button>
                 </div>
 
                 {/* menu btn for mobile view */}

@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "position": "Project Manager",
+      "image": "https://via.placeholder.com/150",
+      "social": "https://linkedin.com/in/johndoe"
+    },
+    {
+      "id": 2,
+      "name": "Mike",
+      "position": "Business Analyst",
+      "image": "https://via.placeholder.com/150",
+      "social": "https://linkedin.com/in/janesmith"
+    },
+    {
+      "id": 3,
+      "name": "Zai",
+      "position": "Business Analyst",
+      "image": "https://via.placeholder.com/150",
+      "social": "https://linkedin.com/in/alicebrown"
+    },
+    {
+      "id": 4,
+      "name": "Owen",
+      "position": "Full-Stack Developer",
+      "image": "https://via.placeholder.com/150",
+      "social": "https://linkedin.com/in/mikejohnson"
+    },
+    {
+      "id": 5,
+      "name": "Davis",
+      "position": "Full-Stack Developer",
+      "image": "https://via.placeholder.com/150",
+      "social": "https://linkedin.com/in/emilydavis"
+    }
+  ]
+  
