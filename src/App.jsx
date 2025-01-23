@@ -3,6 +3,7 @@ import About from './components/About'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Team from './components/Team'
+import Footer from './components/Footer'
 import './index.css'
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Home />
       <Team />
       <About />
+      <Footer />
     </div>
   )
 }

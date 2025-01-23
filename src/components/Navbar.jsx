@@ -23,6 +23,7 @@ const Navbar = () => {
     { link: "Home", path: "home" },
     { link: "About", path: "about" },
     { link: "Team", path: "team" },
+    { link: "Contact Us", path: "footer" },
   ];
 
   return (
@@ -57,8 +58,8 @@ const Navbar = () => {
                 smooth={true}
                 offset={-100}
                 key={path}
-                className="block text-base text-gray900 hover:text-brandPrimary first:font-medium"
-              >
+                className="block text-base text-gray900 hover:text-brandPrimary cursor-pointer first:font-medium"
+                >
                 {link}
               </Link>
             ))}
@@ -97,7 +98,7 @@ const Navbar = () => {
                 offset={-100}
                 key={path}
                 onClick={() => setIsMenuOpen(false)}
-                className="block text-base text-white hover:text-brandPrimary first:font-medium"
+                className="block text-base text-white hover:text-black cursor-pointer first:font-medium"
               >
                 {link}
               </Link>
