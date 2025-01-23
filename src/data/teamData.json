@@ -1,38 +1,41 @@
 [
     {
       "id": 1,
-      "name": "John Doe",
-      "position": "Project Manager",
-      "image": "https://via.placeholder.com/150",
-      "social": "https://linkedin.com/in/johndoe"
+      "name": "Pyae",
+      "position": "Developer",
+      "image": "/src/assets/ppl.jpg",
+      "bio": "I’m Pyae, an MSc Data Science student at UWE with experience as a Software Engineer and expertise in cloud computing, data engineering, and developing systems like ERP, POS, and ticket booking solutions.",
+      "cv": "/src/cv/PPLCV.pdf",
+      "github": "https://github.com/Pyaephyo33",
+      "linkedin": "https://www.linkedin.com/in/pyaephyo-linn-2b0107258/"
     },
     {
       "id": 2,
-      "name": "Mike",
+      "name": "Gerard",
       "position": "Business Analyst",
       "image": "https://via.placeholder.com/150",
-      "social": "https://linkedin.com/in/janesmith"
+      "linkedin": "https://linkedin.com/in/janesmith"
     },
     {
       "id": 3,
-      "name": "Zai",
-      "position": "Business Analyst",
+      "name": "Enoch",
+      "position": "Scrum Master, Project Leader",
       "image": "https://via.placeholder.com/150",
-      "social": "https://linkedin.com/in/alicebrown"
+      "linkedin": "https://linkedin.com/in/alicebrown"
     },
     {
       "id": 4,
-      "name": "Owen",
-      "position": "Full-Stack Developer",
+      "name": "Haoyu",
+      "position": "Developer",
       "image": "https://via.placeholder.com/150",
-      "social": "https://linkedin.com/in/mikejohnson"
+      "linkedin": "https://linkedin.com/in/mikejohnson"
     },
     {
       "id": 5,
-      "name": "Davis",
-      "position": "Full-Stack Developer",
+      "name": "Title",
+      "position": "Business Analyst",
       "image": "https://via.placeholder.com/150",
-      "social": "https://linkedin.com/in/emilydavis"
+      "linkedin": "https://linkedin.com/in/emilydavis"
     }
   ]
   
