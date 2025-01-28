@@ -65,12 +65,12 @@ const Navbar = () => {
             ))}
           </ul>
 
-          {/* Button for larger screens */}
+          {/* Button for larger screens 
           <div className="space-x-12 hidden lg:flex items-center">
             <button className="bg-brandPrimary text-white py-2 px-4 transition-all duration-300 rounded hover:bg-neutralDGrey">
               Get Code
             </button>
-          </div>
+          </div>*/}
 
           {/* Menu button for mobile view */}
           <div className="md:hidden">

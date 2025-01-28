@@ -34,8 +34,9 @@
       "id": 5,
       "name": "Title",
       "position": "Business Analyst",
-      "image": "https://via.placeholder.com/150",
-      "linkedin": "https://linkedin.com/in/emilydavis"
+      "image": "/src/assets/title.jpg",
+      "bio": "Hi I’m Wisarut Maneenak(Title), FinTech student at UWE, with a passion for blockchain, digital payments, and financial innovation. Excited to shape the future of finance through technology.",
+      "linkedin": "https://www.linkedin.com/in/wisarut-maneenak-8929b9330/"
     }
   ]
   
