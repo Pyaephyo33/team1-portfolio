@@ -3,7 +3,7 @@
       "id": 1,
       "name": "Pyae",
       "position": "Developer",
-      "image": "/src/assets/ppl.jpg",
+      "image": "/public/ppl.jpg",
       "bio": "I’m Pyae, an MSc Data Science student at UWE with experience as a Software Engineer and expertise in cloud computing, data engineering, and developing systems like ERP, POS, and ticket booking solutions.",
       "github": "https://github.com/Pyaephyo33",
       "linkedin": "https://www.linkedin.com/in/pyaephyo-linn-2b0107258/"
@@ -33,7 +33,7 @@
       "id": 5,
       "name": "Title",
       "position": "Business Analyst",
-      "image": "/src/assets/title.jpg",
+      "image": "/public/title.jpg",
       "bio": "Hi I’m Wisarut Maneenak(Title), FinTech student at UWE, with a passion for blockchain, digital payments, and financial innovation. Excited to shape the future of finance through technology.",
       "linkedin": "https://www.linkedin.com/in/wisarut-maneenak-8929b9330/"
     }
