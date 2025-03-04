@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-scroll";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Footer = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+      once: false,
+    });
+  }, []);
   const navItems = [
     { link: "Home", path: "home" },
     { link: "About", path: "about" },
@@ -27,7 +35,10 @@ const Footer = () => {
       </div>
 
       {/* Footer Section */}
-      <footer id="footer" className="bg-brandPrimary text-gray-200">
+      <footer
+        id="footer"
+        className="bg-brandPrimary text-gray-200"
+      >
         <div className="px-6 py-12 sm:px-8 sm:py-16 lg:px-16 lg:py-20 text-center">
           {/* Navigation Links */}
           <div className="mb-8">
@@ -55,6 +66,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-gray-400 transition-all"
+                 data-aos="zoom-in-up"
               >
                 <FaFacebook />
               </a>
@@ -63,6 +75,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-gray-400 transition-all"
+                 data-aos="zoom-in-up"
               >
                 <FaTwitter />
               </a>
@@ -71,6 +84,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-gray-400 transition-all"
+                 data-aos="zoom-in-up"
               >
                 <FaInstagram />
               </a>
@@ -79,6 +93,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-gray-400 transition-all"
+                 data-aos="zoom-in-up"
               >
                 <FaLinkedin />
               </a>

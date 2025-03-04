@@ -1,7 +1,17 @@
 import React, { useEffect, useState } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import AOS from "aos"
+import "aos/dist/aos.css";  
 
 const Team = () => {
+  // aos start
+  useEffect(() => {
+      AOS.init({
+        duration: 1500,
+        once: false,
+      });
+    }, [])
+    // aos end
   const [teamMembers, setTeamMembers] = useState([]);
   const [selectedMember, setSelectedMember] = useState(null);
 
@@ -48,6 +58,7 @@ const Team = () => {
         src={member.image}
         alt={member.name}
         className="h-24 w-24 mx-auto mb-4 rounded object-cover"
+        data-aos="fade-up"
       />
       <h3 className="text-xl font-semibold">{member.name}</h3>
       <p className="text-gray-500 mb-4">{member.position}</p>
@@ -75,7 +86,7 @@ const Team = () => {
   return (
     <div id="team" className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto">
       <div className="text-center my-8">
-        <h2 className="text-4xl font-semibold mb-2">Team</h2>
+        <h2 className="text-4xl font-semibold mb-2">TEAM</h2>
         <p className="text-gray-600">
           We are a dynamic team of five professionals united by passion and purpose.
         </p>
@@ -107,7 +118,7 @@ const Team = () => {
             <p className="text-gray-500 text-center">{selectedMember.position}</p>
             <p className="text-gray-700 mt-4 text-left">{selectedMember.bio}</p>
             {/* CV Button */}
-            <div className="flex justify-left mt-4">
+            {/* <div className="flex justify-left mt-4">
               <a
                 href={selectedMember.cv} // Link to the CV file
                 target="_blank" // Open in a new tab
@@ -116,7 +127,7 @@ const Team = () => {
               >
                 View CV
               </a>
-            </div>
+            </div> */}
             <div className="flex justify-center gap-4 mt-6">
               <a
                 href={selectedMember.github}
