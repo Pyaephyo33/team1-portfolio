@@ -16,7 +16,7 @@ const Team = () => {
   const [selectedMember, setSelectedMember] = useState(null);
 
   useEffect(() => {
-    fetch("/src/data/teamData.json")
+    fetch("/teamData.json")
       .then((response) => response.json())
       .then((data) => setTeamMembers(data))
       .catch((error) => console.error("Error loading team data:", error));
