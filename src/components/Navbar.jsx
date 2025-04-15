@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo_light.png";
 import { FaXmark, FaBars } from "react-icons/fa6";
 
 const Navbar = () => {
