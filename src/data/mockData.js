@@ -45,3 +45,35 @@ export const fallbackBlogs = [
     image: bannerImg,
   },
 ];
+
+export const fallbackRecommendations = [
+  {
+    title: "Modern Flat in Clifton",
+    description: "A spacious and stylish 2-bedroom flat close to Bristol University.",
+    imageUrl: "", // purposely empty to test fallback
+    reason: "Similar users viewed this property recently.",
+  },
+  {
+    title: "Family Home in Redland",
+    description: "Perfect for families, this 3-bedroom house features a large garden.",
+    imageUrl: "https://via.placeholder.com/400x300",
+    reason: "Based on your interest in family-friendly properties.",
+  },
+  {
+    title: "Studio Apartment in City Centre",
+    description: "Ideal for students and professionals looking for easy access to amenities.",
+    imageUrl: "",
+    reason: "You're browsing properties near downtown.",
+  },
+];
+
+export const fallbackUserInfo = {
+  nickname: 'Robot',
+  lastname: 'Johnny',
+  email: 'yuki@gmail.com',
+  mbti: 'ENFJ',
+  income: '4000',
+  demographic: 'Mid-Class',
+  familySize: '4',
+  status: 'active',
+};

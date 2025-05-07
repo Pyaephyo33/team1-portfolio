@@ -28,10 +28,10 @@ const Home = () => {
           <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row items-center justify-between gap-12">
             <div className="md:w-1/2 md:ps-16">
               <h1 className="text-4xl font-semibold mb-4 text-neutralDGrey leading-snug uppercase">
-                Collaborating is the <span className="text-brandPrimary">KEY</span>
+                Your personal assistant <span className="text-brandPrimary">AI agent</span>
               </h1>
               <p className="text-neutralGrey text-base mb-8">
-                Bringing ideas together to achieve project goals—where teamwork meets innovation.
+                Your personalised AI agent for your ideal property
               </p>
               {/* Add smooth scroll to Property Section */}
               <ScrollLink to="property" spy={true} smooth={true} offset={-100} className="text-indigo-600 cursor-pointer">
@@ -47,10 +47,10 @@ const Home = () => {
           <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row items-center justify-between gap-12">
             <div className="md:w-1/2 md:ps-16">
               <h1 className="text-4xl font-semibold mb-4 text-neutralDGrey leading-snug uppercase">
-                UNITING <span className="text-brandPrimary">MINDS</span> MINDS, <span className="text-brandPrimary">ACHIEVING GOALS</span>
+                Explore <span className="text-brandPrimary">PERSONALISED</span> NEWS, <span className="text-brandPrimary">Latest blog</span>
               </h1>
               <p className="text-neutralGrey text-base mb-8">
-                By combining our strengths, we turn challenges into opportunities.
+                Latest market information searched by your AI agent
               </p>
               {/* Add smooth scroll to Blog Section */}
               <ScrollLink to="blog" spy={true} smooth={true} offset={-100} className="text-indigo-600 cursor-pointer">

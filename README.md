@@ -10,3 +10,6 @@ Currently, two official plugins are available:
 npm install -D vite
 npm install react-router-dom
 
+# Start the script
+
+npm run dev

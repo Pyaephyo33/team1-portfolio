@@ -12,7 +12,7 @@
       "id": 2,
       "name": "Gerard",
       "position": "Business Analyst",
-      "image": "https://via.placeholder.com/150",
+      "image": "/assets/gerard.jpeg",
       "linkedin": "https://linkedin.com/in/janesmith"
     },
     {
@@ -27,7 +27,7 @@
       "id": 4,
       "name": "Haoyu",
       "position": "Developer",
-      "image": "https://via.placeholder.com/150",
+      "image": "/assets/haoyu.jpg",
       "linkedin": "https://linkedin.com/in/mikejohnson"
     },
     {

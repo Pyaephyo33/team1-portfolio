@@ -1,41 +1,41 @@
 [
-    {
-      "id": 1,
-      "name": "Pyae",
-      "position": "Developer",
-      "image": "/src/assets/ppl.jpg",
-      "bio": "I’m Pyae, an MSc Data Science student at UWE with experience as a Software Engineer and expertise in cloud computing, data engineering, and developing systems like ERP, POS, and ticket booking solutions.",
-      "github": "https://github.com/Pyaephyo33",
-      "linkedin": "https://www.linkedin.com/in/pyaephyo-linn-2b0107258/"
-    },
-    {
-      "id": 2,
-      "name": "Gerard",
-      "position": "Business Analyst",
-      "image": "https://via.placeholder.com/150",
-      "linkedin": "https://linkedin.com/in/janesmith"
-    },
-    {
-      "id": 3,
-      "name": "Enoch",
-      "position": "Scrum Master",
-      "image": "https://via.placeholder.com/150",
-      "linkedin": "https://linkedin.com/in/alicebrown"
-    },
-    {
-      "id": 4,
-      "name": "Haoyu",
-      "position": "Developer",
-      "image": "https://via.placeholder.com/150",
-      "linkedin": "https://linkedin.com/in/mikejohnson"
-    },
-    {
-      "id": 5,
-      "name": "Title",
-      "position": "Business Analyst",
-      "image": "/src/assets/title.jpg",
-      "bio": "Hi I’m Wisarut Maneenak(Title), FinTech student at UWE, with a passion for blockchain, digital payments, and financial innovation. Excited to shape the future of finance through technology.",
-      "linkedin": "https://www.linkedin.com/in/wisarut-maneenak-8929b9330/"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Pyae",
+    "position": "Developer",
+    "image": "/assets/ppl.jpg",
+    "bio": "I’m Pyae, an MSc Data Science student at UWE with experience as a Software Engineer and expertise in cloud computing, data engineering, and developing systems like ERP, POS, and ticket booking solutions.",
+    "github": "https://github.com/Pyaephyo33",
+    "linkedin": "https://www.linkedin.com/in/pyaephyo-linn-2b0107258/"
+  },
+  {
+    "id": 2,
+    "name": "Gerard",
+    "position": "Business Analyst",
+    "image": "/assets/gerard.jpeg",
+    "linkedin": "https://linkedin.com/in/janesmith"
+  },
+  {
+    "id": 3,
+    "name": "Enoch",
+    "position": "Scrum Master",
+    "image": "/assets/enoch.png",
+    "bio": "Hi, I am Enoch, with 3 years of software engineering and 4 years in accounting firm, I have developed skills, e.g. front-end, back-end development, digital project management, enterprise risk management",
+    "linkedin": "https://linkedin.com/in/alicebrown"
+  },
+  {
+    "id": 4,
+    "name": "Haoyu",
+    "position": "Developer",
+    "image": "/assets/haoyu.jpg",
+    "linkedin": "https://linkedin.com/in/mikejohnson"
+  },
+  {
+    "id": 5,
+    "name": "Title",
+    "position": "Business Analyst",
+    "image": "/assets/title.jpg",
+    "bio": "Hi I’m Wisarut Maneenak(Title), FinTech student at UWE, with a passion for blockchain, digital payments, and financial innovation. Excited to shape the future of finance through technology.",
+    "linkedin": "https://www.linkedin.com/in/wisarut-maneenak-8929b9330/"
+  }
+]
